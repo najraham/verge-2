@@ -1,0 +1,66 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+
+.black-nav {
+  background-color: black;
+  top: 0;
+  left: 0;
+  padding: 18px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+
+  .telephone {
+    color: white;
+    margin-right: 10px;
+  }
+
+  .try-it {
+    color: black;
+    background-color: #f0c860;
+    padding: 5px 30px;
+    border-radius: 5px;
+  }
+}
+
+.white-nav {
+  top: 53px;
+  left: 0;
+
+  .nav-logo {
+    width: 150px;
+    background: url("images/logo.png") no-repeat;
+    background-size: 100px;
+    margin-top: 2px;
+  }
+
+  .aside {
+    width: 70%;
+
+    .menu-icon {
+      font-size: 30px;
+      float: right;
+    }
+  }
+}
+
+.banner{
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 100px;
+  background: url("images/banner.jpg") no-repeat;
+  background-size: 100% 100%;
+
+  .banner-desc {
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+}
